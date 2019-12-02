@@ -1,8 +1,13 @@
 import React from "react"
 import ReactDOM from "react-dom"
+import Kittens from './components/Kittens'
 
 const App = () => {
-  return <h1>🤩 React</h1>
+  return (
+    <React.Fragment>
+      <Kittens />
+    </React.Fragment>
+  )
 }
 
 ReactDOM.render(<App />, document.getElementById("app"))

@@ -1,0 +1,13 @@
+.kitten {
+  text-align: center;
+}
+
+.kitten-img {
+  width: 100px;
+  height: 100px;
+}
+
+.kittens-container {
+  display: flex;
+  flex-wrap: wrap;
+}
