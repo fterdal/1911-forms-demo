@@ -4,10 +4,10 @@ class Kittens extends React.Component {
   constructor() {
     super()
     this.state = {
-      id: 1,
+      highestId: 2,
       kittens: [
         { id: 1, name: "Priti" },
-        { id: 2, name: "Collin" },
+        { id: 2, name: "Travis" },
       ]
     }
   }
@@ -16,6 +16,7 @@ class Kittens extends React.Component {
     return (
       <React.Fragment>
         <div>Add a kitten</div>
+        {/* Form goes here */}
 
         <div>KittenList:</div>
         <div className="kittens-container">
